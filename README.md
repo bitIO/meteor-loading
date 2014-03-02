@@ -29,7 +29,7 @@ A really simple loading overlay. It consits of three files
       left      : 'auto'      // Left position relative to parent in px
 };</pre>
 
-The library (Spin.js)[http://fgnass.github.io/spin.js/] comes bundled - Version 1.3.3 (24.12.2013)
+The library [Spin.js](http://fgnass.github.io/spin.js/) comes bundled - Version 1.3.3 (24.12.2013)
 
 ##Requirements
 The only requirement is the jquery package, defined as `api.use` in the `package.js`.
