@@ -3,7 +3,7 @@
 ##Description
 A really simple loading overlay. It consits of three files
 
-- **html**: contains a template named loading you can include. It does nothing but add the html for the overlay. You need to use the JS function to show the overlay (use it with the onRendered?)
+- **html**: contains a template named `loading` you can include. The spinner will be created using the `onRendered` of the template.
 - **css**:
 - **js**: It defines an object `LoadingOverlay` having three methods and the default properties for the spinner.
   - `createLoadingOverlay (target, overlayColor)`: creates a new overlay (removing the existing ones - using this css selector: `#loading` and appends the created one (with the defined backgorund overlayColor) to the specified target (css selector for jQuery). The overlay will have a centered spinner.
