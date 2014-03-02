@@ -1,0 +1,37 @@
+#loading.loading {
+  position: absolute;
+  left: 0px;
+  top : 0px;
+
+  z-index: 100;
+
+  background-color: #000000;
+
+  min-width : 100%;
+  min-height: 100%;
+
+  overflow  : hidden;
+}
+
+#loading.loading div.spinner {
+}
+
+@-webkit-keyframes loadingOverlayFadeOut {
+    0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes loadingOverlayFadeOut {
+    0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.fadeOut {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+
+  -webkit-animation-name: loadingOverlayFadeOut;
+          animation-name: loadingOverlayFadeOut;
+}

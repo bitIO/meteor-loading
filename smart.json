@@ -1,0 +1,8 @@
+{
+  "name"        : "loading",
+  "description" : "Loading overlay + spinner",
+  "homepage"    : "https://github.com/bitIO/meteor-loading",
+  "author"      : "Francisco Calle Moreno <francisco.calle.moreno@gmail.com>",
+  "version"     : "0.1.0",
+  "git"         : "git@github.com:bitIO/meteor-rickshaw.git"
+}
