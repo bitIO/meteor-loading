@@ -4,5 +4,5 @@
   "homepage"    : "https://github.com/bitIO/meteor-loading",
   "author"      : "Francisco Calle Moreno <francisco.calle.moreno@gmail.com>",
   "version"     : "0.0.1",
-  "git"         : "git@github.com:bitIO/meteor-rickshaw.git"
+  "git"         : "https://github.com/bitIO/meteor-loading.git"
 }
